@@ -1,0 +1,32 @@
+.parking-lot {
+	margin: 20px;
+}
+
+.parking-lot td {
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	border-bottom: solid 1px black;
+	text-align: center;
+}
+
+/* right border on first column */
+.parking-lot td:first-child {
+	border-right: solid 1px black;
+}
+
+/* remove bottom border on last row */
+.parking-lot tr:last-child td {
+	border-bottom: none;
+}
+
+.swatch {
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.swatch:last-of-type {
+	margin-right: 0;
+}
